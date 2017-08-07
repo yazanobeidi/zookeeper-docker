@@ -1,6 +1,6 @@
-FROM wurstmeister/base
+FROM ubuntu:zesty
 
-MAINTAINER Wurstmeister
+MAINTAINER Yazan Obeidi
 
 ENV ZOOKEEPER_VERSION 3.4.9
 
