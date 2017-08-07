@@ -1,6 +1,17 @@
 FROM ubuntu:zesty
 
 MAINTAINER Yazan Obeidi
+# Based on https://github.com/wurstmeister/zookeeper-docker
+
+RUN apt-get update && apt-get install -y \
+    unzip \
+    openjdk-7-jre-headless \
+    wget \
+    supervisor \
+    docker.io \
+    openssh-server
+
+#EXPOSE 22
 
 ENV ZOOKEEPER_VERSION 3.4.9
 
