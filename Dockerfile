@@ -1,4 +1,4 @@
-FROM ubuntu:zesty
+FROM ubuntu:trusty
 
 MAINTAINER Yazan Obeidi
 # Based on https://github.com/wurstmeister/zookeeper-docker
